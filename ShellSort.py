@@ -6,7 +6,6 @@ def Gen_Ran_List(n=random.randint(10, 100), low=random.randint(1, 50), up=random
     random.shuffle(lt)
     return lt
 
-# Insertion Sort Implementation
 def ShellSort(arr, gap):
     if gap == 0:
         return arr
